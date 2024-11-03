@@ -1,0 +1,33 @@
+project_root/
+│
+├── app/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── database.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   └── item.py
+│   ├── schemas/
+│   │   ├── __init__.py
+│   │   └── item.py
+│   ├── crud/
+│   │   ├── __init__.py
+│   │   └── item.py
+│   ├── api/
+│   │   ├── __init__.py
+│   │   └── endpoints/
+│   │       ├── __init__.py
+│   │       └── items.py
+│   └── config.py
+│
+├── tests/
+│   ├── __init__.py
+│   └── test_items.py
+│
+├── alembic/
+│   ├── versions/
+│   └── env.py
+│
+├── requirements.txt
+├── .env
+└── README.md
